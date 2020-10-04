@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
 
 :root {
-  --blue: hsl(223, 87%, 63%);
+  --blue: #4f7df3;
   --pale-blue: hsl(223, 100%, 88%);
   --light-red: hsl(354, 100%, 66%);
   --gray: hsl(0, 0%, 59%);
@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -26,11 +27,95 @@ body {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
+  margin-top: 4.5rem;
+  padding: 1rem;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.main-heading span {
+  font-weight: 700;
+  color: var(--very-dark-blue);
+}
+
+.sub-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+.form-input {
+  padding: 1rem 2rem;
+  border: 1px solid var(--pale-blue);
+  color: var(--pale-blue);
+  font: inherit;
+  font-size: 1rem;
+  border-radius: 9999px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.form-button {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--blue);
+  font: inherit;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 9999px;
+  border: none;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .dashboard {
   width: 100%;
   max-width: 640px;
+}
+
+.dashboard-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+}
+
+.copyright {
+  margin-bottom: 1.5rem;
+  font-size: 0.825rem;
+  text-align: center;
+  color: var(--gray);
 }
 
 .footer {
