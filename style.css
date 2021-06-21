@@ -28,20 +28,20 @@ body {
   max-width: 700px;
   margin: 0 auto;
   margin-top: 4.5rem;
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .logo-wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .main-heading {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
   color: var(--gray);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.125rem;
   text-align: center;
 }
 
@@ -52,16 +52,20 @@ body {
 
 .sub-heading {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.625rem;
+  color: var(--very-dark-blue);
 }
 
 .form {
-  margin-bottom: 1.5rem;
-  padding: 0 1rem;
+  margin: 0 auto 5.5rem auto;
+  max-width: 39.75rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .form-input {
-  padding: 1rem 2rem;
+  padding: 1.125rem 2rem;
   border: 1px solid var(--pale-blue);
   color: var(--pale-blue);
   font: inherit;
@@ -69,7 +73,7 @@ body {
   border-radius: 9999px;
   display: block;
   width: 100%;
-  margin-bottom: 0.5rem;
+  flex: 2;
 }
 
 .form-button {
@@ -78,11 +82,13 @@ body {
   background-color: var(--blue);
   font: inherit;
   font-size: 1rem;
+  font-weight: 600;
   color: #fff;
   padding: 1rem;
   border-radius: 9999px;
   border: none;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  flex: 1;
 }
 
 .dashboard {
@@ -91,24 +97,31 @@ body {
 }
 
 .dashboard-wrapper {
-  margin-bottom: 1.5rem;
+  margin-bottom: 4.375rem;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
+  gap: 1rem;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.625rem;
+  list-style: none;
 }
 
 .icon {
-  margin: 0 0.5rem;
-  padding: 0.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 1px solid var(--pale-blue);
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--blue);
-  border-radius: 50%;
+}
+
+.fab {
+  color: var(--blue);
+  font-size: 0.9375rem;
 }
 
 .copyright {
@@ -121,6 +134,7 @@ body {
 .footer {
   font-size: 11px;
   text-align: center;
+  padding: 0.5rem;
 }
 
 .footer a {
