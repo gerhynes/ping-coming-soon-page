@@ -18,39 +18,40 @@
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
-    <body class="container">
+    <main class="container">
       <div class="logo-wrapper">
         <img class="logo" src="./images/logo.svg" alt="Ping logo" />
       </div>
 
       <h1 class="main-heading">We are launching <span>soon!</span></h1>
 
-      <p class="sub-heading">Subscribe and get notified</p>
+      <h2 class="sub-heading">Subscribe and get notified</h2>
 
-      <form class="form" action="#">
-        <input
+      <form class="form" action="#" id="form">
+        <div class="input-wrapper">
+          <input
           class="form-input"
-          type="email"
+          type="text"
           id="email-input"
           placeholder="Your Email Address..."
           name="email"
           aria-label="Email address"
-        />
+          />
+          <p class="error-message">Please provide a valid email address</p>
+        </div>
         <button class="form-button">Notify Me</button>
       </form>
 
-      <div class="dashboard-wrapper">
         <img
           class="dashboard"
           src="./images/illustration-dashboard.png"
           alt="Dashboard illustration"
         />
-      </div>
-
+      
       <ul class="social-icons">
-        <li class="icon"><i class="fab fa-facebook-f"></i></li>
-        <li class="icon"><i class="fab fa-twitter"></i></li>
-        <li class="icon"><i class="fab fa-instagram"></i></li>
+        <li><a class="icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a class="icon" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="icon" href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
 
       <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
@@ -63,6 +64,7 @@
           >. Coded by <a href="https://github.com/GK-Hynes">Gerard Hynes</a>.
         </p>
       </footer>
-    </body>
+    </main>
+    <script src="./script.js"></script>
   </body>
 </html>
