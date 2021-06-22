@@ -94,7 +94,7 @@ body {
   color: var(--pale-blue);
   border: 1px solid var(--pale-blue);
   font: inherit;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   border-radius: 9999px;
 }
 
@@ -102,7 +102,7 @@ body {
   width: 100%;
   padding: 0.875rem;
   font: inherit;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #fff;
   background-color: var(--blue);
@@ -157,8 +157,8 @@ body {
 }
 
 .social-icons .icon {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.25rem;
+  height: 1.25rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -168,7 +168,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 0.9375rem;
+  font-size: 0.75rem;
   color: var(--blue);
   text-decoration: none;
   border: 1px solid var(--pale-blue);
